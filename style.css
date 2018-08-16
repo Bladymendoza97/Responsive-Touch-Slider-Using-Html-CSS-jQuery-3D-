@@ -1,0 +1,99 @@
+body{
+  
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 13.5px;
+      margin: 0;
+      padding: 0;
+  
+    }
+
+
+
+    #particles-js
+    {
+     width: 100%;
+      height: 100%;
+      background: #000;
+      background: linear-gradient(45deg, #e91e63, #262626); 
+      position: absolute;
+
+}
+
+
+    .swiper-container {
+      width: 100%;
+      padding-top: 100px;
+      padding-bottom: 45px;
+      position:relative;
+
+
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 400px;
+      height: 480px;
+      background: #eaeaea;
+      box-shadow: 0 6px 20px rgba(0,0,0,1);
+
+
+      
+    }
+
+    .swiper-slide .imgBx{
+      width: 100%;
+      height: 405px;
+      overflow: hidden;
+
+    }
+
+    .swiper-slide .imgBx img{
+      width: 100%;
+
+    }
+    .swiper-slide .details{
+      box-sizing: border-box;
+      font-size: 20px;
+      padding: 20px;
+    }
+
+    .swiper-slide .details h3{
+      margin: 0;
+      padding: 0;
+      font-size: 20px !important ;
+      text-align: center;
+      line-height: 20px;
+      font-weight: 700;
+    }
+
+    .swiper-slide .details h3 span{
+
+    font-size: 16px !important ;
+    color: #f44336;
+    }
+
+/*Probando contenido (pocision absoluta y relativa)*/
+/*.prueba{
+  width: 100%;
+  height: 100%;
+  background: red;
+  margin-top: 105px;
+}
+
+@media screen and (max-width: 1000px){
+.prueba{
+  width: 100%;
+  height: 100%;
+  background: red;
+  margin-top: 110px;
+}
+    #particles-js
+    {
+     width: 100%;
+      height: 110%;
+      background: #000;
+      background: linear-gradient(45deg, #e91e63, #262626); 
+      position: absolute;
+
+}
+}*/
